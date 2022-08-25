@@ -1,8 +1,25 @@
-*{
-    
+body{
+    background-color: darkgreen;
+    color:whitesmoke;
 }
 .container{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 30%;
+    margin:auto;
+}
+#cash-given{
+    margin-bottom: 10px;
+    border:2px solid black;
+}
+#bill-amount{
+margin-bottom:10px;    
+}
+table{
+    border: 2px solid whitesmoke;
+    
+}
+td{
+    border: 2px solid whitesmoke;
+    padding: 4px;
 }

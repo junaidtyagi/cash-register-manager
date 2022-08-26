@@ -30,7 +30,7 @@ function showMessage(msg){
 checkButton.addEventListener("click",function cashRegister(){
     hideMessage();
  if(billAmount.value > 0){
-   if(billAmount.value >= cashGiven.value){
+   if(billAmount.value <= cashGiven.value){
      const amountToBeReturned= cashGiven.value - billAmount.value;
      calculateChange(amountToBeReturned);
 
